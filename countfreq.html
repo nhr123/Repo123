@@ -1,0 +1,28 @@
+//Counting frequency of characters in a string
+<html>
+<head><title>Frequency of characters</title>
+<script>
+function freq(str){
+	var arr=[];
+	
+	for(var i=0;i<str.length;i++){
+		var ch=str.charAt(i);
+		if(arr[ch]){
+			arr[ch]++;
+		}	
+		else{
+			arr[ch]=1;
+		}
+	}
+	return arr;
+}
+var str=freq("Hanumanth".toLowerCase());
+var res='';
+for(var ch in str){
+	res+=ch+':'+str[ch]+"<br/>";
+}
+document.write(res);
+</script>
+</head>
+<body>	</body>
+</html>
