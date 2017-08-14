@@ -1,8 +1,10 @@
+/* program to find valid pan card numbers in a paragraph */
+
 import java.io.*;
 import java.util.*;
 public class PanCard{
 public static void main(String args[]) throws IOException{
-	BufferedReader r=new BufferedReader(new FileReader("C:\\Users\\Gopichand\\Desktop\\panDetails.txt"));
+	BufferedReader r=new BufferedReader(new FileReader("C:\\Users\\Hanumanth\\Desktop\\panDetails.txt"));
 	String s=r.readLine();
 	while(s != null){
 	String s1[]=s.split(" ");

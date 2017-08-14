@@ -1,3 +1,5 @@
+/* finding status of all lights*/
+
 import java.io.*;
 import java.util.*;
 
